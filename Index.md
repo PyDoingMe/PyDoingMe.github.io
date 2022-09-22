@@ -35,8 +35,12 @@
 
 # [관련 이미지 & 동영상]
 
-- 이미지  
-  <img src="./img/관련이미지.jpg">
+- 이미지 1  
+  <img src="./img/2.jpg">
+- 이미지 2  
+  <img src="./img/3.png">
+- 이미지 3  
+  <img src="./img/4.png">
 - 동영상
   [![](http://img.youtube.com/vi/hbI1BPgXTQI/0.jpg)](https://www.youtube.com/watch?v=hbI1BPgXTQI)
 
