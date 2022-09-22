@@ -38,7 +38,7 @@
 - 이미지  
 <img src="./img/관련이미지.jpg">
 - 동영상
-[![](http://img.youtube.com/vi/hbI1BPgXTQI/0.jpg)](https://www.youtube.com/watch?v=hbI1BPgXTQI)
+  [![](http://img.youtube.com/vi/hbI1BPgXTQI/0.jpg)](https://www.youtube.com/watch?v=hbI1BPgXTQI)
 
 <br><br>
 
