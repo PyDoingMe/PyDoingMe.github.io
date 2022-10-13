@@ -70,8 +70,8 @@
 
 <br><br>
 
-# [<게임제목> 구성 요소] <a name='4'></a>
-
+# [<Whatever> 구성 요소] <a name='4'></a>
+제목
 - Whatever
 
 <br>
