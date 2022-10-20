@@ -338,64 +338,237 @@ Pinwheel Studio - Polaris 2020
 
 ### 2) 오브젝트 이름 : Boss
 
-속성|영문명칭|설명
----|---|---
-float|movSpeed|이동 속도
-float|tilt|비행 시, 위/아래 각도
-float|turn|비행 시, 좌/우 각도
-float|attSpeed|공격 애니메이션 속도
-int|attPower|공격력
-CharacterController|chaController|부착된 캐릭터컨트롤러 컴포넌트
-Animator|animator|부착된 애니메이터 컴포넌트
-Slider|hPUI|체력 게이지 UI
-int|maxHP|최대 체력
-int|curHP|현재 체력
-NavMeshAgent|nav|부착된 네브메시에이전트 컴포넌트
-int|hitCnt|Tree/Ballista의 공격을 적중당한 횟수
-Collider|col|플레이어 탐지 콜라이더
-bool|isInBattle|전투 여부
-bool|isFly|비행 여부
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float</td>
+<td>movSpeed</td>
+<td>이동 속도</td>
+</tr>
+<tr>
+<td>float</td>
+<td>tilt</td>
+<td>비행 시, 위/아래 각도</td>
+</tr>
+<tr>
+<td>float</td>
+<td>turn</td>
+<td>비행 시, 좌/우 각도</td>
+</tr>
+<tr>
+<td>float</td>
+<td>attSpeed</td>
+<td>공격 애니메이션 속도</td>
+</tr>
+<tr>
+<td>int</td>
+<td>attPower</td>
+<td>공격력</td>
+</tr>
+<tr>
+<td>CharacterController</td>
+<td>chaController</td>
+<td>부착된 캐릭터컨트롤러 컴포넌트</td>
+</tr>
+<tr>
+<td>Animator</td>
+<td>animator</td>
+<td>부착된 애니메이터 컴포넌트</td>
+</tr>
+<tr>
+<td>Slider</td>
+<td>hPUI</td>
+<td>체력 게이지 UI</td>
+</tr>
+<tr>
+<td>int</td>
+<td>maxHP</td>
+<td>최대 체력</td>
+</tr>
+<tr>
+<td>int</td>
+<td>curHP</td>
+<td>현재 체력</td>
+</tr>
+<tr>
+<td>NavMeshAgent</td>
+<td>nav</td>
+<td>부착된 네브메시에이전트 컴포넌트</td>
+</tr>
+<tr>
+<td>int</td>
+<td>hitCnt</td>
+<td>Tree/Ballista의 공격을 적중당한 횟수</td>
+</tr>
+<tr>
+<td>Collider</td>
+<td>col</td>
+<td>플레이어 탐지 콜라이더</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>isInBattle</td>
+<td>전투 여부</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>isFly</td>
+<td>비행 여부</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 3) 오브젝트 이름 : (Monsters)
 
-속성|영문명칭|설명
----|---|---
-float|movSpeed|이동 속도
-float|attSpeed|공격 애니메이션 속도
-int|attPower|공격력
-CharacterController|chaController|부착된 캐릭터컨트롤러 컴포넌트
-Animator|animator|부착된 애니메이터 컴포넌트
-Slider|hPUI|체력 게이지 UI
-int|maxHP|최대 체력
-int|curHP|현재 체력
-NavMeshAgent|nav|부착된 네브메시에이전트 컴포넌트
-Collider|col|플레이어 탐지 콜라이더
-bool|isInBattle|전투 여부
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float</td>
+<td>movSpeed</td>
+<td>이동 속도</td>
+</tr>
+<tr>
+<td>float</td>
+<td>attSpeed</td>
+<td>공격 애니메이션 속도</td>
+</tr>
+<tr>
+<td>int</td>
+<td>attPower</td>
+<td>공격력</td>
+</tr>
+<tr>
+<td>CharacterController</td>
+<td>chaController</td>
+<td>부착된 캐릭터컨트롤러 컴포넌트</td>
+</tr>
+<tr>
+<td>Animator</td>
+<td>animator</td>
+<td>부착된 애니메이터 컴포넌트</td>
+</tr>
+<tr>
+<td>Slider</td>
+<td>hPUI</td>
+<td>체력 게이지 UI</td>
+</tr>
+<tr>
+<td>int</td>
+<td>maxHP</td>
+<td>최대 체력</td>
+</tr>
+<tr>
+<td>int</td>
+<td>curHP</td>
+<td>현재 체력</td>
+</tr>
+<tr>
+<td>NavMeshAgent</td>
+<td>nav</td>
+<td>부착된 네브메시에이전트 컴포넌트</td>
+</tr>
+<tr>
+<td>Collider</td>
+<td>col</td>
+<td>플레이어 탐지 콜라이더</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>isInBattle</td>
+<td>전투 여부</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 4) 오브젝트 이름 : Tree, Ballista
 
-속성|영문명칭|설명
----|---|---
-int|attPower|공격력
-Slider|hPUI|체력 게이지 UI
-int|maxHP|최대 체력
-int|curHP|현재 체력
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>attPower</td>
+<td>공격력</td>
+</tr>
+<tr>
+<td>Slider</td>
+<td>hPUI</td>
+<td>체력 게이지 UI</td>
+</tr>
+<tr>
+<td>int</td>
+<td>maxHP</td>
+<td>최대 체력</td>
+</tr>
+<tr>
+<td>int</td>
+<td>curHP</td>
+<td>현재 체력</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 5) 오브젝트 이름 : Hat, GHat
 
-속성|영문명칭|설명
----|---|---
-int|attPower|공격력
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>attPower</td>
+<td>공격력</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 6) 오브젝트 이름 : (Relics)
 
-속성|영문명칭|설명
----|---|---
-int|params|올라갈 플레이어 능력치
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>int</td>
+<td>params</td>
+<td>올라갈 플레이어 능력치</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 
@@ -403,117 +576,378 @@ int|params|올라갈 플레이어 능력치
 
 ### 1) 오브젝트 이름 : Monya
 
-영문명칭|설명
----|---
-Input()|플레이어 입력
-ForwardMove()|카메라 방향, 전/후 움직임
-SideMove()|카메라 방향, 좌/우 움직임
-Jump()|점프, 점프 상태라면 불발
-Glide()|활강, 점프 상태가 아니면 불발
-NearAttack()|근접 공격, 모자가 없으면 불발
-FarAttack()|원거리 공격, 모자가 없으면 불발
-Dying()|사망 처리
-CamRotation()|카메라 회전
-ChangeFov()|차징 여부에 따라 시야 변경
-TakeDamage()|피격 시 발동, 체력 감소
-TakeRelics()|유물 획득
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Input()</td>
+<td>플레이어 입력</td>
+</tr>
+<tr>
+<td>ForwardMove()</td>
+<td>카메라 방향, 전/후 움직임</td>
+</tr>
+<tr>
+<td>SideMove()</td>
+<td>카메라 방향, 좌/우 움직임</td>
+</tr>
+<tr>
+<td>Jump()</td>
+<td>점프, 점프 상태라면 불발</td>
+</tr>
+<tr>
+<td>Glide()</td>
+<td>활강, 점프 상태가 아니면 불발</td>
+</tr>
+<tr>
+<td>NearAttack()</td>
+<td>근접 공격, 모자가 없으면 불발</td>
+</tr>
+<tr>
+<td>FarAttack()</td>
+<td>원거리 공격, 모자가 없으면 불발</td>
+</tr>
+<tr>
+<td>Dying()</td>
+<td>사망 처리</td>
+</tr>
+<tr>
+<td>CamRotation()</td>
+<td>카메라 회전</td>
+</tr>
+<tr>
+<td>ChangeFov()</td>
+<td>차징 여부에 따라 시야 변경</td>
+</tr>
+<tr>
+<td>TakeDamage()</td>
+<td>피격 시 발동, 체력 감소</td>
+</tr>
+<tr>
+<td>TakeRelics()</td>
+<td>유물 획득</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 2) 오브젝트 이름 : Nada
 
-영문명칭|설명
----|---
-FlyAttack()|비행 중일 때, 공격
-GroundAttack()|비행 중이 아닐 때, 공격
-LastAttack()|현재 체력이 최대 체력의 10분의 1이 되면 실행, 강력한 공격
-Dying()|사망 처리
-TakeDamage()|피격 시 발동, 체력 감소
-FlyTo()|특정한 위치로 공중 이동
-MoveTo()|특정한 위치로 지상 이동
-Groggy()|행동 일시 정지
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>FlyAttack()</td>
+<td>비행 중일 때, 공격</td>
+</tr>
+<tr>
+<td>GroundAttack()</td>
+<td>비행 중이 아닐 때, 공격</td>
+</tr>
+<tr>
+<td>LastAttack()</td>
+<td>현재 체력이 최대 체력의 10분의 1이 되면 실행, 강력한 공격</td>
+</tr>
+<tr>
+<td>Dying()</td>
+<td>사망 처리</td>
+</tr>
+<tr>
+<td>TakeDamage()</td>
+<td>피격 시 발동, 체력 감소</td>
+</tr>
+<tr>
+<td>FlyTo()</td>
+<td>특정한 위치로 공중 이동</td>
+</tr>
+<tr>
+<td>MoveTo()</td>
+<td>특정한 위치로 지상 이동</td>
+</tr>
+<tr>
+<td>Groggy()</td>
+<td>행동 일시 정지</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 3) 오브젝트 이름 : (Monsters)
 
-영문명칭|설명
----|---
-Attack()|공격
-Dying()|사망 처리
-TakeDamage()|피격 시 발동, 체력 감소
-MoveTo()|특정한 위치로 이동
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack()</td>
+<td>공격</td>
+</tr>
+<tr>
+<td>Dying()</td>
+<td>사망 처리</td>
+</tr>
+<tr>
+<td>TakeDamage()</td>
+<td>피격 시 발동, 체력 감소</td>
+</tr>
+<tr>
+<td>MoveTo()</td>
+<td>특정한 위치로 이동</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 4) 오브젝트 이름 : Tree, Ballista
 
-영문명칭|설명
----|---
-Attack()|공격
-Dying()|사망 처리
-TakeDamage()|피격 시 발동, 체력 감소
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack()</td>
+<td>공격</td>
+</tr>
+<tr>
+<td>Dying()</td>
+<td>사망 처리</td>
+</tr>
+<tr>
+<td>TakeDamage()</td>
+<td>피격 시 발동, 체력 감소</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 5) 오브젝트 이름 : Hat, GHat
-
-영문명칭|설명
----|---
-Attack()|공격
-MoveTo()|특정한 위치로 이동
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Attack()</td>
+<td>공격</td>
+</tr>
+<tr>
+<td>MoveTo()</td>
+<td>특정한 위치로 이동</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 6) 오브젝트 이름 : (Relics)
 
-영문명칭|설명
----|---
-GiveParams()|플레이어와 닿으면 능력치 제공
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GiveParams()</td>
+<td>플레이어와 닿으면 능력치 제공</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 7) 오브젝트 이름 : Door
-영문명칭|설명
----|---
-Open()|열림
+<table>
+<thead>
+<tr>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Open()</td>
+<td>열림</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ## 상태
 
 ### 1) 오브젝트 이름 : Monya
 
-현상태|전이상태|전이조건
----|---|---
-Idle|Jump|space & !isJump
-Jump|Glide|space(hold) & isJump
-Idle|Move|arrow(hold) & !isJump
-Idle/Jump|NearAttack|left mouse
-Idle/Jump|Charge|left mouse(hold)
-Charge|FarAttack|left mouse(release)
-All|Die|curHP <= 0
-All(without Die)|Idle|when animation is over
+<table>
+<thead>
+<tr>
+<th>현상태</th>
+<th>전이상태</th>
+<th>전이조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Idle</td>
+<td>Jump</td>
+<td>space &amp; !isJump</td>
+</tr>
+<tr>
+<td>Jump</td>
+<td>Glide</td>
+<td>space(hold) &amp; isJump</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Move</td>
+<td>arrow(hold) &amp; !isJump</td>
+</tr>
+<tr>
+<td>Idle/Jump</td>
+<td>NearAttack</td>
+<td>left mouse</td>
+</tr>
+<tr>
+<td>Idle/Jump</td>
+<td>Charge</td>
+<td>left mouse(hold)</td>
+</tr>
+<tr>
+<td>Charge</td>
+<td>FarAttack</td>
+<td>left mouse(release)</td>
+</tr>
+<tr>
+<td>All</td>
+<td>Die</td>
+<td>curHP &lt;= 0</td>
+</tr>
+<tr>
+<td>All(without Die)</td>
+<td>Idle</td>
+<td>when animation is over</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 2) 오브젝트 이름 : Nada
 
-현상태|전이상태|전이조건  
----|---|---  
-Fly|FlyMove|FlyTo() or FlyAttack()  
-Fly|FlyAttack|FlyAttack()  
-FlyMove, FlyAttack|Fly|when animation is over  
-Fly,Idle|Groggy|hitCnt >= 3  
-Groggy|Idle|when animation is over  
-Idle|Move|GroundAttack() or MoveTo()  
-Idle|Attack|GroundAttack()  
-Idle|Fly|GroundAttack()  
-All|Die|curHP <= 0  
+<table>
+<thead>
+<tr>
+<th>현상태</th>
+<th>전이상태</th>
+<th>전이조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fly</td>
+<td>FlyMove</td>
+<td>FlyTo() or FlyAttack()</td>
+</tr>
+<tr>
+<td>Fly</td>
+<td>FlyAttack</td>
+<td>FlyAttack()</td>
+</tr>
+<tr>
+<td>FlyMove, FlyAttack</td>
+<td>Fly</td>
+<td>when animation is over</td>
+</tr>
+<tr>
+<td>Fly,Idle</td>
+<td>Groggy</td>
+<td>hitCnt &gt;= 3</td>
+</tr>
+<tr>
+<td>Groggy</td>
+<td>Idle</td>
+<td>when animation is over</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Move</td>
+<td>GroundAttack() or MoveTo()</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Attack</td>
+<td>GroundAttack()</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Fly</td>
+<td>GroundAttack()</td>
+</tr>
+<tr>
+<td>All</td>
+<td>Die</td>
+<td>curHP &lt;= 0</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 3) 오브젝트 이름 : (Monsters)
-
-현상태|전이상태|전이조건
----|---|---
-Idle|Move|MoveTo()
-Idle|Attack|Attack()
-Idle, Attack|Hit|TakeDamage()
-All|Die|curHP <= 0
-All(without Die)|Idle|when animation is over
-
+<table>
+<thead>
+<tr>
+<th>현상태</th>
+<th>전이상태</th>
+<th>전이조건</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Idle</td>
+<td>Move</td>
+<td>MoveTo()</td>
+</tr>
+<tr>
+<td>Idle</td>
+<td>Attack</td>
+<td>Attack()</td>
+</tr>
+<tr>
+<td>Idle, Attack</td>
+<td>Hit</td>
+<td>TakeDamage()</td>
+</tr>
+<tr>
+<td>All</td>
+<td>Die</td>
+<td>curHP &lt;= 0</td>
+</tr>
+<tr>
+<td>All(without Die)</td>
+<td>Idle</td>
+<td>when animation is over</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ## 게임의 규칙
