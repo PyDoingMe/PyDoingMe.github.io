@@ -152,7 +152,7 @@ Pinwheel Studio - Polaris 2020
 ## 게임 오브젝트 분해
 
 |오브젝트 이름|오브젝트 분류|오브젝트 이미지|
-|---|---|---|
+|:---:|:---:|:---:|
 |Monya|Player|<img src="./img/4.png">|
 |Hat|Equipment|<img src="./img/6.jpg">|
 |GoldenHat|Equipment|<img src="./img/7.jpg">|
