@@ -151,21 +151,21 @@ Pinwheel Studio - Polaris 2020
 
 ## 게임 오브젝트 분해
 
-오브젝트 이름|오브젝트 분류|오브젝트 이미지
--|-|-
-Monya|Player|<img src="./img/5.jpg">
-Hat|Equipment|<img src="./img/6.jpg">
-GoldenHat|Equipment|<img src="./img/7.jpg">
-(Relics)|Equipment|
-Nada|Boss|<img src="./img/8.jpg">
-Lily|Moster|<img src="./img/9.jpg">
-Petty|Moster|<img src="./img/10.jpg">
-Ketty|Moster|<img src="./img/11.jpg">
-(Animals)|Moster|<img src="./img/12.jpg">
-Door|Environment|<img src="./img/17.jpg">
-Tree|Environment|<img src="./img/13.jpg">
-Ballista|Environment|<img src="./img/14.jpg">
-Topography|Environment|<img src="./img/15.jpg">
+|오브젝트 이름|오브젝트 분류|오브젝트 이미지|
+|-|-|-|
+|Monya|Player|<img src="./img/5.jpg">|
+|Hat|Equipment|<img src="./img/6.jpg">|
+|GoldenHat|Equipment|<img src="./img/7.jpg">|
+|(Relics)|Equipment||
+|Nada|Boss|<img src="./img/8.jpg">|
+|Lily|Moster|<img src="./img/9.jpg">|
+|Petty|Moster|<img src="./img/10.jpg">|
+|Ketty|Moster|<img src="./img/11.jpg">|
+|(Animals)|Moster|<img src="./img/12.jpg">|
+|Door|Environment|<img src="./img/17.jpg">|
+|Tree|Environment|<img src="./img/13.jpg">|
+|Ballista|Environment|<img src="./img/14.jpg">|
+|Topography|Environment|<img src="./img/15.jpg">|
 <br>
 
 ## 파라미터
@@ -445,9 +445,9 @@ All(without Die)|Idle|when animation is over
 
 
 # [흐름도] <a name='7'></a>
-<img src="./img/18.jpg">
+<img src="./img/18.png">
 
 <br>
 
 # [스토리보드] <a name='8'></a>
-<img src="./img/19.jpg">
+<img src="./img/19.png">
