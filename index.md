@@ -151,21 +151,82 @@ Pinwheel Studio - Polaris 2020
 
 ## 게임 오브젝트 분해
 
-|오브젝트 이름|오브젝트 분류|오브젝트 이미지|
-|:---:|:---:|:---:|
-|Monya|Player|<img src="./img/4.png">|  
-|Hat|Equipment|<img src="./img/6.jpg">|  
-|GoldenHat|Equipment|<img src="./img/7.jpg">|  
-|(Relics)|Equipment||  
-|Nada|Boss|<img src="./img/8.jpg">|  
-|Lily|Moster|<img src="./img/9.jpg">|  
-|Petty|Moster|<img src="./img/10.jpg">|  
-|Ketty|Moster|<img src="./img/11.jpg">|  
-|(Animals)|Moster|<img src="./img/12.jpg">|
-|Door|Environment||
-|Tree|Environment|<img src="./img/13.jpg">|
-|Ballista|Environment|<img src="./img/14.jpg">|
-|Topography|Environment|<img src="./img/15.jpg">|
+<table>
+<thead>
+<tr>
+<th align="center">오브젝트 이름</th>
+<th align="center">오브젝트 분류</th>
+<th align="center">오브젝트 이미지</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Monya</td>
+<td align="center">Player</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/4.png"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/4.png" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Hat</td>
+<td align="center">Equipment</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/6.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/6.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">GoldenHat</td>
+<td align="center">Equipment</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/7.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/7.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">(Relics)</td>
+<td align="center">Equipment</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Nada</td>
+<td align="center">Boss</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/8.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/8.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Lily</td>
+<td align="center">Moster</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/9.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/9.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Petty</td>
+<td align="center">Moster</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/10.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/10.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Ketty</td>
+<td align="center">Moster</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/11.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/11.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">(Animals)</td>
+<td align="center">Moster</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/12.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/12.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Door</td>
+<td align="center">Environment</td>
+<td align="center"></td>
+</tr>
+<tr>
+<td align="center">Tree</td>
+<td align="center">Environment</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/13.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/13.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Ballista</td>
+<td align="center">Environment</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/14.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/14.jpg" style="max-width: 100%;"></a></td>
+</tr>
+<tr>
+<td align="center">Topography</td>
+<td align="center">Environment</td>
+<td align="center"><a target="_blank" rel="noopener noreferrer" href="/PyDoingMe/PyDoingMe.github.io/blob/main/img/15.jpg"><img src="/PyDoingMe/PyDoingMe.github.io/raw/main/img/15.jpg" style="max-width: 100%;"></a></td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ## 파라미터
