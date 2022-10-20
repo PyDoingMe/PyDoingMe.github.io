@@ -153,14 +153,14 @@ Pinwheel Studio - Polaris 2020
 
 |오브젝트 이름|오브젝트 분류|오브젝트 이미지|
 |:---:|:---:|:---:|
-|Monya|Player|<img src="./img/4.png">|
-|Hat|Equipment|<img src="./img/6.jpg">|
-|GoldenHat|Equipment|<img src="./img/7.jpg">|
-|(Relics)|Equipment||
-|Nada|Boss|<img src="./img/8.jpg">|
-|Lily|Moster|<img src="./img/9.jpg">|
-|Petty|Moster|<img src="./img/10.jpg">|
-|Ketty|Moster|<img src="./img/11.jpg">|
+|Monya|Player|<img src="./img/4.png">|  
+|Hat|Equipment|<img src="./img/6.jpg">|  
+|GoldenHat|Equipment|<img src="./img/7.jpg">|  
+|(Relics)|Equipment||  
+|Nada|Boss|<img src="./img/8.jpg">|  
+|Lily|Moster|<img src="./img/9.jpg">|  
+|Petty|Moster|<img src="./img/10.jpg">|  
+|Ketty|Moster|<img src="./img/11.jpg">|  
 |(Animals)|Moster|<img src="./img/12.jpg">|
 |Door|Environment||
 |Tree|Environment|<img src="./img/13.jpg">|
