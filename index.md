@@ -1,6 +1,6 @@
 # PyDoingMe.github.io
 
-# Whatever
+# 프로젝트 명 : Whatever (이창현)
 
 # [ 목차 ]
 ### 1. [컨셉](#1)
