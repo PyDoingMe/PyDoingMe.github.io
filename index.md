@@ -233,26 +233,107 @@ Pinwheel Studio - Polaris 2020
 
 ### 1) 오브젝트 이름 : Player
 
-속성|영문명칭|설명
----|---|---
-float|movSpeed|이동 속도
-float|attSpeed|공격 애니메이션 속도
-int|attPower|공격력
-bool|isCharge|차징 여부
-CharacterController|chaController|부착된 캐릭터컨트롤러 컴포넌트
-Animator|animator|부착된 애니메이터 컴포넌트
-Image|hPUI|체력 UI
-GameObject|hatObject|부착된 모자 오브젝트
-GameObject|camArm|부착된 카메라 암 오브젝트
-Camera|camera|부착된 카메라 컴포넌트
-float|defaultFov|기본 시야 값
-float|charageFov|차징 시, 시야 값
-bool|hasHat|모자 오브젝트 소지 여부
-int|maxHP|최대 체력
-int|curHP|현재 체력
-float|jumPower|점프력
-bool|isJump|점프 여부
-int|relCnt|수집한 원판 유물 횟수
+<table>
+<thead>
+<tr>
+<th>속성</th>
+<th>영문명칭</th>
+<th>설명</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>float</td>
+<td>movSpeed</td>
+<td>이동 속도</td>
+</tr>
+<tr>
+<td>float</td>
+<td>attSpeed</td>
+<td>공격 애니메이션 속도</td>
+</tr>
+<tr>
+<td>int</td>
+<td>attPower</td>
+<td>공격력</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>isCharge</td>
+<td>차징 여부</td>
+</tr>
+<tr>
+<td>CharacterController</td>
+<td>chaController</td>
+<td>부착된 캐릭터컨트롤러 컴포넌트</td>
+</tr>
+<tr>
+<td>Animator</td>
+<td>animator</td>
+<td>부착된 애니메이터 컴포넌트</td>
+</tr>
+<tr>
+<td>Image</td>
+<td>hPUI</td>
+<td>체력 UI</td>
+</tr>
+<tr>
+<td>GameObject</td>
+<td>hatObject</td>
+<td>부착된 모자 오브젝트</td>
+</tr>
+<tr>
+<td>GameObject</td>
+<td>camArm</td>
+<td>부착된 카메라 암 오브젝트</td>
+</tr>
+<tr>
+<td>Camera</td>
+<td>camera</td>
+<td>부착된 카메라 컴포넌트</td>
+</tr>
+<tr>
+<td>float</td>
+<td>defaultFov</td>
+<td>기본 시야 값</td>
+</tr>
+<tr>
+<td>float</td>
+<td>charageFov</td>
+<td>차징 시, 시야 값</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>hasHat</td>
+<td>모자 오브젝트 소지 여부</td>
+</tr>
+<tr>
+<td>int</td>
+<td>maxHP</td>
+<td>최대 체력</td>
+</tr>
+<tr>
+<td>int</td>
+<td>curHP</td>
+<td>현재 체력</td>
+</tr>
+<tr>
+<td>float</td>
+<td>jumPower</td>
+<td>점프력</td>
+</tr>
+<tr>
+<td>bool</td>
+<td>isJump</td>
+<td>점프 여부</td>
+</tr>
+<tr>
+<td>int</td>
+<td>relCnt</td>
+<td>수집한 원판 유물 횟수</td>
+</tr>
+</tbody>
+</table>
 <br>
 
 ### 2) 오브젝트 이름 : Boss
