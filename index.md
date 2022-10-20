@@ -349,17 +349,17 @@ All(without Die)|Idle|when animation is over
 
 ### 2) 오브젝트 이름 : Nada
 
-현상태|전이상태|전이조건
----|---|---
-Fly|FlyMove|FlyTo() or FlyAttack()
-Fly|FlyAttack|FlyAttack()
-FlyMove, FlyAttack|Fly|when animation is over
-Fly,Idle|Groggy|hitCnt >= 3
-Groggy|Idle|when animation is over
-Idle|Move|GroundAttack() or MoveTo()
-Idle|Attack|GroundAttack()
-Idle|Fly|GroundAttack()
-All|Die|curHP <= 0
+현상태|전이상태|전이조건  
+---|---|---  
+Fly|FlyMove|FlyTo() or FlyAttack()  
+Fly|FlyAttack|FlyAttack()  
+FlyMove, FlyAttack|Fly|when animation is over  
+Fly,Idle|Groggy|hitCnt >= 3  
+Groggy|Idle|when animation is over  
+Idle|Move|GroundAttack() or MoveTo()  
+Idle|Attack|GroundAttack()  
+Idle|Fly|GroundAttack()  
+All|Die|curHP <= 0  
 <br>
 
 ### 3) 오브젝트 이름 : (Monsters)
